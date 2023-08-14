@@ -44,6 +44,8 @@ gem "bootsnap", require: false
 
 gem 'friendly_id', '~> 5.4.0'
 
+gem 'byebug', '~> 11.1', '>= 11.1.3'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
