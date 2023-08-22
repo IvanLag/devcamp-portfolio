@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   resources :portfolios, except: [:show]
   get 'angutar-items', to: 'portfolios#angular' 
   get 'portfolio/:id', to: 'portfolios#show', as: 'portfolio_snow'
