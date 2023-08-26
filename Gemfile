@@ -46,6 +46,8 @@ gem 'friendly_id', '~> 5.4.0'
 
 gem 'byebug', '~> 11.1', '>= 11.1.3'
 
+gem 'devise', '~> 4.9', '>= 4.9.2'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
