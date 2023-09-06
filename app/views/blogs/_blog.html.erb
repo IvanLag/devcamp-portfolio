@@ -1,4 +1,10 @@
 <div id="<%= dom_id blog %>">
+
+  <p>
+    <strong>Date:</strong>
+    Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago
+  </p>
+
   <p>
     <strong>Title:</strong>
     <%= blog.title %>
@@ -8,6 +14,7 @@
     <strong>Body:</strong>
     <%= blog.body %>
   </p>
+
   
 </div>
 
