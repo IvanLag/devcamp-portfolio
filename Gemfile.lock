@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/IvanLag/lagutin_view_tool
+  revision: b10b5dcf09203643eb9a927272a9248b53358bb6
+  specs:
+    lagutin_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -233,6 +239,7 @@ DEPENDENCIES
   friendly_id (~> 5.4.0)
   importmap-rails
   jbuilder
+  lagutin_view_tool!
   pg (~> 1.1)
   pry-byebug
   puma (~> 5.0)
