@@ -48,6 +48,8 @@ gem 'devise', '~> 4.9', '>= 4.9.2'
 
 gem 'bootstrap', '~> 4.0'
 
+gem 'petergate', '~> 3.0'
+
 gem 'lagutin_view_tool', git: 'https://github.com/IvanLag/lagutin_view_tool'
 
 # Use Sass to process CSS
