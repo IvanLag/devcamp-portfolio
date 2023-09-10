@@ -20,6 +20,20 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+/* Custom button looks like link*/
+.btn-link {
+  text-align: left;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
+ 
+.nav-masthead .nav-link + .button_to{
+  margin-left: 1rem;
+}
+
 
 /*
  * Base structure
@@ -44,7 +58,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  width: 55em;
 }
 
 
