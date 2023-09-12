@@ -1,25 +1,15 @@
-<div id="<%= dom_id blog %>">
-
+<div class="blog-post">
+  <h2 class="blog-post-title"><%= link_to blog.title, blog %></h2>
+  <p class="blog-post-meta">Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago</p>
+  <% if logged_in?(:site_admin) %> 
+    <p class="blog-post-meta">
+      <%= link_to blog.status, toggle_status_blog_path(blog) %> /
+      <%= link_to "Edit this blog", edit_blog_path(blog) %> 
+    </p>
+  <% end %>
   <p>
-    <strong>Date:</strong>
-    Published <%= distance_of_time_in_words(blog.created_at, Time.now) %> ago
-  </p>
-
-  <p>
-    <strong>Title:</strong>
-    <%= blog.title %>
-  </p>
-
-  <p>
-    <strong>Body:</strong>
     <%= blog.body %>
   </p>
 
-  
-</div>
-
-
-<p><%= link_to blog.status, toggle_status_blog_path(blog) %></p>
-<p>
-  <%= link_to "Show this blog", blog %>
-</p>
+   <%= button_to "Delete post", blog, method: :delete, class: "btn-link" if logged_in?(:site_admin) %>
+</div><!-- /.blog-post -->
