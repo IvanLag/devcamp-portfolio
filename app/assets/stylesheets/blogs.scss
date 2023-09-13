@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "font-awesome";
 /* stylelint-disable selector-list-comma-newline-after */
 
 .blog-header {
@@ -133,7 +134,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-/* Custom button looks like link*/
+/* Custom styles */
+
 .btn-link {
   text-align: left;
   background: none;
@@ -141,4 +143,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0;
   border: none;
   cursor: pointer;
+}
+
+.social-links li {
+  font-size: 2.5em;  
 }

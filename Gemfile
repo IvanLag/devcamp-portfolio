@@ -52,6 +52,10 @@ gem 'petergate', '~> 3.0'
 
 gem 'lagutin_view_tool', git: 'https://github.com/IvanLag/lagutin_view_tool'
 
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
+
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 

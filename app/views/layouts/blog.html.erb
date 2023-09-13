@@ -21,16 +21,10 @@
 
       <%= render 'shared/blog_nav' %>
 
-      <!-- Start of blog header -->
-      
-      <header class="blog-header">
-        <div class="container">
-          <h1 class="blog-title">My blog</h1>
-          <%= link_to "Write a new blog", new_blog_path if logged_in?(:site_admin) %>
-        </div>
-      </header>
+
+      <%= render 'shared/blog_masthead' %>
+
     </div>
-    <!-- End of blog header -->
 
     <!-- start of container and row elements -->
     <main role="main" class="container">
@@ -45,14 +39,8 @@
         <!-- end of sidebar -->
       </div>
     </main>
-    <!-- start of footer -->
-    <footer class="blog-footer">
-      <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-      <p>
-        <a href="#">Back to top</a>
-      </p>
-    </footer>
-    <!-- end of footer -->
+
+    <%= render 'shared/blog_footer' %>
     <!-- end of container and row elements -->
 
     <%= source_helper("blog") %>
