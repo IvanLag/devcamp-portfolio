@@ -56,6 +56,10 @@ gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.8'
 
 gem 'kaminari', '~> 1.2', '>= 1.2.2'
 
+gem 'jquery-rails', '~> 4.2.1'
+
+gem 'turbolinks', '~> 5.2', '>= 5.2.1'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
