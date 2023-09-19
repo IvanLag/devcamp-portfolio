@@ -2,4 +2,5 @@
 //= require jquery3
 //= require bootstrap
 //= require jquery-ui
+//= require portfolios
 //= require html.sortable
