@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import "jquery-ui";
 :root {
   --jumbotron-padding-y: 3rem;
 }
@@ -40,6 +41,15 @@ footer p {
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
 
 /* Custom styles */
+
+.btn-link {
+  text-align: left;
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+}
 
 .portfolio-form {
   padding: 20px;

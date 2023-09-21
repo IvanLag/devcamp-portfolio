@@ -60,6 +60,8 @@ gem 'jquery-rails', '~> 4.2.1'
 
 gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 
+gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
