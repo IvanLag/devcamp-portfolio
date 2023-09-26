@@ -62,6 +62,14 @@ gem 'turbolinks', '~> 5.2', '>= 5.2.1'
 
 gem 'jquery-ui-rails', '~> 5.0', '>= 5.0.5'
 
+gem 'carrierwave', '~> 3.0', '>= 3.0.3'
+
+gem 'mini_magick', '~> 4.12'
+
+gem 'carrierwave-aws', '~> 1.6'
+
+gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
