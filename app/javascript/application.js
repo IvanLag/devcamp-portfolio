@@ -3,4 +3,4 @@
 //= require bootstrap
 //= require jquery-ui
 //= require portfolios
-//= require html.sortable
+//= require cocoon

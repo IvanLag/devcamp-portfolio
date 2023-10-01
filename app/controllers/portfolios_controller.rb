@@ -1,5 +1,4 @@
 class PortfoliosController < ApplicationController
-	skip_before_action :verify_authenticity_token
 	before_action :set_portfolio_item, only: %i[ show edit update destroy]
 	layout 'portfolio'
 	access all: [:show, :index, :angular], user: {except: [:destroy, :new, :create, :update, :edit, :sort]}, site_admin: :all
@@ -23,8 +22,6 @@ class PortfoliosController < ApplicationController
 
 	def new
 		@portfolio_item = Portfolio.new
-
-		3.times { @portfolio_item.technologies.build }
 	end
 
 	def create
@@ -74,7 +71,7 @@ class PortfoliosController < ApplicationController
 			                                :body,
 			                                :thumb_image,
 																			:main_image,
-			                                technologies_attributes: [:name]
+			                                technologies_attributes: [:id, :name, :_destroy]
 			                                )
   end
 

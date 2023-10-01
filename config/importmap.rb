@@ -8,4 +8,5 @@ pin_all_from "app/javascript/controllers", under: "controllers"
 
 pin "popper", to: 'popper.js', preload: true
 
-pin "bootstrap", to: 'bootstrap.min.js', preload: true
+pin "bootstrap", to: 'bootstrap.min.js', preload: true	
+pin "@nathanvda/cocoon", to: "https://ga.jspm.io/npm:@nathanvda/cocoon@1.2.14/cocoon.js"

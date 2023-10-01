@@ -70,6 +70,8 @@ gem 'carrierwave-aws', '~> 1.6'
 
 gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 
+gem 'cocoon', '~> 1.2', '>= 1.2.15'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
