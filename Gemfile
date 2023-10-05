@@ -72,6 +72,8 @@ gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
 
 gem 'cocoon', '~> 1.2', '>= 1.2.15'
 
+gem 'gritter', '~> 1.2'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
