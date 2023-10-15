@@ -74,6 +74,8 @@ gem 'cocoon', '~> 1.2', '>= 1.2.15'
 
 gem 'gritter', '~> 1.2'
 
+gem 'twitter', '~> 8.0', '>= 8.0.1'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
