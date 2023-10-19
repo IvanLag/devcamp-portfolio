@@ -19,7 +19,7 @@ module SocialTool
 			        "RubyOnRails.BA: Help you get reading the huge open souce libraries in Ruby and trace its source locations (from 15/12/2022)",
 			        "Andreas C.: Thanks to Kent for this little tip to implement only once the ruby version.",
 			        "Deanin: You can listen to the Rails devs about React being a waste if you're trying to start your own business. Just please don't be surprised if your first Ruby on Rails interview for your future job ends with a take home quiz about a React/Vue/Svelte/Angular/whatever.js + Rails app",
-			        "RubyOnRails.BA: Turbo 8 is dropping TypeScript (from 08/09/2023)"
+			        "RubyOnRails.BA: Turbo 8 is dropping TypeScript (from 08/09/2023) https://instagram.com follow me !!!"
 			    ]
 		end
 	end
