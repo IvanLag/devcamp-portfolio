@@ -76,6 +76,8 @@ gem 'gritter', '~> 1.2'
 
 gem 'twitter', '~> 8.0', '>= 8.0.1'
 
+gem 'redis', '~> 5.0', '>= 5.0.8'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
