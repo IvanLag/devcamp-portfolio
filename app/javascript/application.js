@@ -3,6 +3,9 @@
 //= require jquery_ujs
 //= require jquery-ui
 //= require bootstrap
+//= require cable
+//= require turbolinks
 //= require portfolios
+//= require blogs
 //= require cocoon
 //= require gritter
