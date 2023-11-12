@@ -78,6 +78,10 @@ gem 'twitter', '~> 8.0', '>= 8.0.1'
 
 gem 'redis', '~> 5.0', '>= 5.0.8'
 
+gem 'redcarpet', '~> 3.6'
+
+gem 'coderay', '~> 1.1', '>= 1.1.3'
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
